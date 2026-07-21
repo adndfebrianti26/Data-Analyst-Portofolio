@@ -1,4 +1,4 @@
-# Adinda - Data Analyst / Statistician Portfolio
+# Adinda - Data Analyst / Statistician Portofolio
 
 ## About
 
@@ -11,10 +11,10 @@ This repository showcases projects from my academic research, focused on applyin
 ## Table of Contents
 
 - [About](#about)
-- [Portfolio Projects](#portfolio-projects)
-  - R
+- [Portofolio Projects](#portfolio-projects)
+  - R, Python, SPSS, Minitab
     - [Risk Factors of Cleft Lip and Palate — CATPCA & GLM](#risk-factors-of-cleft-lip-and-palate--catpca--glm)
-    - [Gender Equality Typology in West Java — Clustering & MCA](#gender-equality-typology-in-west-java--clustering--mca)
+    - [Gender Equality Typology in West Java — K-means Clustering & MCA](#gender-equality-typology-in-west-java--clustering--mca)
 - [Education](#education)
 - [Contact](#contact)
 
@@ -30,13 +30,13 @@ In this section I list my main research/analytics projects, briefly describing t
 
 **Description:** Undergraduate thesis (completed) using 2023 secondary survey data (133 patients across two provinces). The pipeline combines Categorical Principal Component Analysis (CATPCA) to reduce mixed-type predictor variables, followed by a Generalized Linear Model (binomial distribution, logit link) to model cleft type. Unlike most prior CLP research — which is largely maternal-only and bivariate — this project takes a multivariate approach and explicitly includes paternal factors.
 
-**Skills:** dimensionality reduction for mixed-type data, logistic regression, odds ratio interpretation, bootstrap resampling, multicollinearity diagnostics (VIF), model evaluation (AIC, deviance, Tjur's R²).
+**Skills:** dimensionality reduction for mixed-type data, logistic regression, odds ratio interpretation, bootstrap resampling, multicollinearity diagnostics (heatmap correlation), model evaluation (AIC, deviance).
 
-**Technology:** R, CATPCA (PRINCALS), `polycor::hetcor()`, `ggplot2`.
+**Technology:** R, CATPCA (PRINCALS), `polycor::hetcor()`, `ggplot2`, heatmap, Python, SPSS, Minitab.
 
 **Results:** Paternal passive smoking and paternal radiation exposure were significant predictors of cleft type across all three models (West Java, South Sulawesi, and combined). Region itself was a significant predictor (OR = 5.96) in the combined model, indicating regionally distinct risk profiles.
 
-### Gender Equality Typology in West Java — Clustering & MCA
+### Gender Equality Typology in West Java — K-means Clustering & MCA
 
 **Code:** [`gender-equality-clustering-westjava`](#)
 
