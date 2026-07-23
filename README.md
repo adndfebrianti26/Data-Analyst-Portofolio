@@ -46,9 +46,7 @@ In this section I list my main research/analytics projects, briefly describing t
 
 **Skills:** unsupervised learning, mixed-data analysis, spatial visualization, data storytelling.
 
-**Technology:** R / Python (add whichever you used), MCA, K-Means.
-
-**Results:** *(fill in with your actual cluster distribution / key regional finding)*
+**Technology:** Python, MCA, geographic visualization
 
 ## Education
 
