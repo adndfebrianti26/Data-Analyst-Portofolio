@@ -9,7 +9,7 @@ Berikut ini adalah resume saya * [pdf](https://github.com/adndfebrianti26/Data-A
 * [Tentang](#tentang)
 * [Portfolio Projects](#portfolio-projects)
   * [Analisis Faktor Penyebab Kasus Celah Bibir dan Langit-Langit dengan Analisis Komponen Utama dan Generalized Linear Model]()
-  * [Analisis Pergeseran Tingkat Pengangguran menggunakan Metode EWMA dan Shewhart]()
+  * [Analisis Pergeseran Tingkat Pengangguran menggunakan Metode EWMA dan Shewhart](#)
 * [Pendidikan](#pendidikan)
 * [Kontak](#kontak)
 
@@ -17,7 +17,7 @@ Berikut ini adalah resume saya * [pdf](https://github.com/adndfebrianti26/Data-A
 Di bagian ini, saya akan menampilkan proyek analisis data dan menjelaskan secara singkat rangkaian teknologi yang digunakan untuk menyelesaikan kasus tersebut.  
 
 ## Analisis Faktor Penyebab Kasus Celah Bibir dan Langit-Langit dengan Analisis Komponen Utama dan Generalized Linear Model
-**Kode**:Analyzing the Factors Contributing to the Success of a Movie.ipynb
+**Kode**: 
 
 **Tujuan**: Identifikasi dimensi variabel penyebab kasus celah bibir dan langit menggunakan analisis komponen utama kategorikal, menentukan faktor yang berpengaruh secara signifikan terhadap jenis celah, dan menentukan apakah terdapat pengaruh perbedaan wilayah terhadap faktor penyebab kasus jenis celah. 
 
@@ -33,7 +33,7 @@ Di bagian ini, saya akan menampilkan proyek analisis data dan menjelaskan secara
 
 **Tujuan**: Menganalisis kestabilan tingkat pengangguran di beberapa negara Asia dan mendeteksi adanya pergeseran rata-rata dan hubungannya dengan krisis finansial yang terjadi.
 
-**Kode**:Tech Store Sales Analysis.ipynb
+**Kode**: [Kode EWMA - Shewhart](https://github.com/adndfebrianti26/Data-Analyst-Portofolio/blob/main/Statistika%20Pengendali%20Mutu)
 
 **Deskripsi**: Krisis finansial Asia 1997 - 1998 merupakan krisis ekonomi besar yang melanda kawasan Asia, khususnya Asia Tenggara pada Juli 1997 hingga Mei 1998, dimulai dari jatuhnya mata uang Baht. Data yang digunakan dalam penelitian ini didapat dari Kaggle yang diambil dari data WorldBank. Data ini mencakup 235 negara dengan tahun tinjauan 1991-2021, dengan pembagian data training pada tahun 1991 - 1995 untuk penetapan nilai mu dan sigma dan data testing pada tahun 1996 - 2001 untuk melihat stabilisasi tingkat pengangguran. Metode yang digunakan adalah bagan kendali Shewhart yakni bagan kendali Xbar-R dan Xbar-S yang bergantung pada jumlah data yang terdapat di setiap daerah tinjauan, serta EWMA untuk mendeteksi pergeseran kecil yang terjadi. 
 
