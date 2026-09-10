@@ -17,7 +17,7 @@ Berikut ini adalah resume saya [pdf](https://github.com/adndfebrianti26/Data-Ana
 Di bagian ini, saya akan menampilkan proyek analisis data dan menjelaskan secara singkat rangkaian teknologi yang digunakan untuk menyelesaikan kasus tersebut.  
 
 ## Analisis Faktor Penyebab Kasus Celah Bibir dan Langit-Langit dengan Analisis Komponen Utama dan Generalized Linear Model
-![Plot Analisis Komponen Utama Kategorikal Wilayah Jawa Barat](https://github.com/adndfebrianti26/Data-Analyst-Portofolio/blob/main/Plot%20AKU-K%20Jawa%20Barat.png)
+<p align="center"> <img src="https://github.com/adndfebrianti26/Data-Analyst-Portofolio/blob/main/Plot%20AKU-K%20Jawa%20Barat.png" width="500"> </p>
 
 **Tujuan**: Identifikasi dimensi variabel penyebab kasus celah bibir dan langit menggunakan analisis komponen utama kategorikal, menentukan faktor yang berpengaruh secara signifikan terhadap jenis celah, dan menentukan apakah terdapat pengaruh perbedaan wilayah terhadap faktor penyebab kasus jenis celah. 
 
