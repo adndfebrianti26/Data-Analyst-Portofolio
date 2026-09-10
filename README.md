@@ -47,4 +47,4 @@ Sarjana Matematika
 
 ## Kontak
 * [LinkedIn: @AdindaFebrianti](https://linkedin.com/in/adinda-febrianti-370a44285)
-* [Email: adndfebrianti26@gmail.com](adndfebrianti26@gmail.com)
+* [Email: adndfebrianti26@gmail.com](mailto:adndfebrianti26@gmail.com)
