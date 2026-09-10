@@ -46,5 +46,5 @@ Sarjana Matematika
 2022 - 2026
 
 ## Kontak
-* [LinkedIn: @AdindaFebrianti]()
-* [Email: adndfebrianti26@gmail.com]()
+* [LinkedIn: @AdindaFebrianti](https://linkedin.com/in/adinda-febrianti-370a44285)
+* [Email: adndfebrianti26@gmail.com](adndfebrianti26@gmail.com)
