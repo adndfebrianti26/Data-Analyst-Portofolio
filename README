@@ -1,58 +1,51 @@
-# Adinda - Data Analyst / Statistician Portofolio
+Adinda Febrianti - Data Specialist Portfolio
+Tentang
+Halo, saya Adinda! Saya lulusan Program Studi Matematika, Institut Teknologi Bandung, dengan kelompok keahlian statistika. Saya memiliki passion besar untuk terus mengembangkan kemampuan analitik saya untuk menemukan informasi berbasis data. 
 
-## About
+Berikut ini adalah resume saya pdf
+Table of Contents
+• Tentang
+• Portfolio Projects
+▪ Analyzing the Factors Contributing to the Success of a Movie
+▪ Tech Store Sales Analysis
+▪ Covid 19 Data Exploration
+▪ Nashville Housing Data Cleaning
+▪ Legendary Pokémon Analysis (Study Project)
+• Pendidikan
+• Kontak
+Portfolio Projects
+Di bagian ini, saya akan menampilkan proyek analisis data dan menjelaskan secara singkat rangkaian teknologi yang digunakan untuk menyelesaikan kasus tersebut.  
+Analisis Faktor Penyebab Kasus Celah Bibir dan Langit-Langit dengan Analisis Komponen Utama dan Generalized Linear Model
+Kode:Analyzing the Factors Contributing to the Success of a Movie.ipynb
 
-Hi, I'm Adinda! I'm a Mathematics graduate from Institut Teknologi Bandung (ITB), with a strong foundation in applied statistics — regression, correlation, classification, and clustering — built through thesis research and academic projects. I'm aiming for roles as a Data Analyst / Statistician, with interest in management trainee and officer development programs as well.
+Tujuan: Identifikasi dimensi variabel penyebab kasus celah bibir dan langit menggunakan analisis komponen utama kategorikal, menentukan faktor yang berpengaruh secara signifikan terhadap jenis celah, dan menentukan apakah terdapat pengaruh perbedaan wilayah terhadap faktor penyebab kasus jenis celah. 
 
-Alongside my studies, I've spent several years as a private tutor and have been involved in an educational community service organization (Lentera Kecil), which sharpened my ability to explain technical ideas clearly to non-technical audiences.
+Deskripsi: Celah bibir dan langit-langit merupakan kelainan kongenital akibat gagalbya penyatuan jaringan wajah pada minggu ke-5 hingga minggu ke-9 kehamilan, yang berdampak pada kondisi fisik dan perkembangan kesehatan anak. Faktor penyebabnya bersifat kompleks dan saling berkaitan yang meliputi aspek genetik, orangtua, serta lingkungan, sehingga beresiko menimbulkan multikolinearitas antarvariabel. Dalam penelitian ini, digunakan data sekunder yang didapat dari penelitian di tahun 2023 di Jawa Barat dan Sulawesi Selatan. Data ini terdiri dari informasi pribadi penderita kasus mengenai jenis celah (variabel dependen) dan juga informasi nutrisi, lingkungan, dan juga orangtua penderita sebelum dan selama kehamilan. Distribusi jenis celah yang tidak normal, banyaknya faktor yang dipertimbangkan sebagai variabel independen, serta untuk mengetahui apa saja faktor yang berpengaruh secata signifikan digunakan Generalized Linear Model setelah diterapkan Analisis Komponen Utama Kategorikal(AKU-K) dan Bootstrapping. Bootstrapping digunakan dengan mempertimbangkan kondisi data yang imbalanced. 
 
-This repository showcases projects from my academic research, focused on applying statistical methods to real survey data in the health and social policy space.
+Skills: data cleaning, data analysis, correlation matrices, hypothesis testing, data visualization.
 
-## Table of Contents
+Teknologi: Spreadsheet, SPSS, Rstudio, Minitab
 
-- [About](#about)
-- [Portofolio Projects](#portfolio-projects)
-  - R, Python, SPSS, Minitab
-    - [Risk Factors of Cleft Lip and Palate — CATPCA & GLM](#risk-factors-of-cleft-lip-and-palate--catpca--glm)
-    - [Gender Equality Typology in West Java — K-means Clustering & MCA](#gender-equality-typology-in-west-java--clustering--mca)
-- [Education](#education)
-- [Contact](#contact)
+Hasil: Proses dimulai dengan data cleaning menggunakan spreadsheet, kemudian dilakukan analisis komponen utama kategorikal adalah dengan menggunakan SPSS, hasilnya dilakukan bootstrapping menggunakan minitab, lalu Generalized Linear Model untuk melihat faktor yang berpengaruh secara signifikan menggunakan Rstudio. Hasilnya terdapat 4 variabel hasil leburan di wilayah Jawa Barat mencakup riwayat kesehatan ayah, riwayat kesehatan ibu, lingkungan ayah, dan lingkungan ibu. Sedangkan Sulawesi Selatan, berdasarkan hasil AKU-K terdapat 1 variabel hasil leburan yakni riwayat keguguran. Wilayah Jawa Barat memiliki variabel signifikan riwayat kesehatan ibu, masalah trimester pertama, rokok pasif ayah dan ibu, radiasi ayah dan ibu, olahraga ayah dan ibu, serta kafein ayah dan ibu. Wilayah Sulawesi Selatan memiliki variabel signifikan terhadap jenis celah diantaranya radiasi ibu, rokok pasif ibu, dan rokok pasif ayah. Kemudian pada data gabungan, variabel signifikan adalah wilayah, pemeriksaan kehamilan, masalah trimester pertama, dan beberapa faktor pola hidup orang tua. Sehingga, wilayah berpengaruh secara signifikan terhadap jenis celah.
+Analisis Pergeseran Tingkat Pengangguran menggunakan Metode EWMA dan Shewhart
 
-## Portfolio Projects
+Tujuan: Menganalisis kestabilan tingkat pengangguran di beberapa negara Asia dan mendeteksi adanya pergeseran rata-rata dan hubungannya dengan krisis finansial yang terjadi.
 
-In this section I list my main research/analytics projects, briefly describing the methodology and technology stack used.
+Kode:Tech Store Sales Analysis.ipynb
 
-### Risk Factors of Cleft Lip and Palate — CATPCA & GLM
+Deskripsi: Krisis finansial Asia 1997 - 1998 merupakan krisis ekonomi besar yang melanda kawasan Asia, khususnya Asia Tenggara pada Juli 1997 hingga Mei 1998, dimulai dari jatuhnya mata uang Baht. Data yang digunakan dalam penelitian ini didapat dari Kaggle yang diambil dari data WorldBank. Data ini mencakup 235 negara dengan tahun tinjauan 1991-2021, dengan pembagian data training pada tahun 1991 - 1995 untuk penetapan nilai mu dan sigma dan data testing pada tahun 1996 - 2001 untuk melihat stabilisasi tingkat pengangguran. Metode yang digunakan adalah bagan kendali Shewhart yakni bagan kendali Xbar-R dan Xbar-S yang bergantung pada jumlah data yang terdapat di setiap daerah tinjauan, serta EWMA untuk mendeteksi pergeseran kecil yang terjadi. 
 
-**Code:** [`clp-cleft-type-catpca-glm`](#)
+Skills: data cleaning, data analysis, data visualization.
 
-**Goal:** To identify which parental behavioral, health, and environmental factors are associated with cleft type (combined lip-and-palate vs. isolated lip- or palate-only) among CLP patients in West Java and South Sulawesi, Indonesia.
+Teknologi: Python
 
-**Description:** Undergraduate thesis (completed) using 2023 secondary survey data (133 patients across two provinces). The pipeline combines Categorical Principal Component Analysis (CATPCA) to reduce mixed-type predictor variables, followed by a Generalized Linear Model (binomial distribution, logit link) to model cleft type. Unlike most prior CLP research — which is largely maternal-only and bivariate — this project takes a multivariate approach and explicitly includes paternal factors.
+Hasil: Analisis bagan kendali Shewhart dan EWMA menunjukkan bahwa dari 41 negara yang ditinjau, terdapat 53,7% mengalami pergeseran naik, 9,8% mengalami pergeseran turun, dan 36,5% stabil. Hal ini menunjukkan dominasi kondisi tidak stabil dengan tren peningkatan pengangguran. Kemudian terjadi kenaikan struktural tingkat pengangguran. Dibandingkan benua lain yang mengalami penurunan rerata dan median. Di Asia justru menunjukkan bahwa efek krisis berkelanjutan. 
 
-**Skills:** dimensionality reduction for mixed-type data, logistic regression, odds ratio interpretation, bootstrap resampling, multicollinearity diagnostics (heatmap correlation), model evaluation (AIC, deviance).
+Education
+Institut Teknologi Bandung, Bandung :
+Sarjana Matematika
+2022 - 2026
 
-**Technology:** R, CATPCA (PRINCALS), `polycor::hetcor()`, `ggplot2`, heatmap, Python, SPSS, Minitab.
-
-**Results:** Paternal passive smoking and paternal radiation exposure were significant predictors of cleft type across all three models (West Java, South Sulawesi, and combined). Region itself was a significant predictor (OR = 5.96) in the combined model, indicating regionally distinct risk profiles.
-
-### Gender Equality Typology in West Java — K-means Clustering & MCA
-
-**Code:** [`gender-equality-clustering-westjava`](#)
-
-**Goal:** To classify regencies/cities in West Java into a typology of gender equality profiles to support geographically targeted policy recommendations.
-
-**Description:** Research project combining K-Means Clustering and Multiple Correspondence Analysis (MCA) on mixed-type gender equality indicators, resulting in a four-quadrant typology (Progresif, Anomali Politik, Marjinal, Kesenjangan Pasif), paired with spatial mapping to visualize geographic patterns.
-
-**Skills:** unsupervised learning, mixed-data analysis, spatial visualization, data storytelling.
-
-**Technology:** Python, MCA, geographic visualization
-
-## Education
-
-Institut Teknologi Bandung (ITB) — B.Sc. Mathematics
-
-## Contact
-
-- LinkedIn: [Adinda Febrianti](https://www.linkedin.com/in/adinda-febrianti-370a44285)
-- Email: adndfebrianti26@gmail.com
+Contacts
+• LinkedIn: @AdindaFebrianti
+• Email: adndfebrianti26@gmail.com
