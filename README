@@ -17,7 +17,6 @@ Berikut ini adalah resume saya [pdf](https://github.com/adndfebrianti26/Data-Ana
 Di bagian ini, saya akan menampilkan proyek analisis data dan menjelaskan secara singkat rangkaian teknologi yang digunakan untuk menyelesaikan kasus tersebut.  
 
 ## Analisis Faktor Penyebab Kasus Celah Bibir dan Langit-Langit dengan Analisis Komponen Utama dan Generalized Linear Model
-**Kode**: [Kode CLP](https://github.com/adndfebrianti26/Data-Analyst-Portofolio/blob/main/Analisis%20Faktor%20Penyebab%20Kasus%20Celah%20Bibir%20dan%20Langit-Langit%20dengan%20Analisis%20Komponen%20Utama%20dan%20Generalized%20Linear%20Model)
 
 **Tujuan**: Identifikasi dimensi variabel penyebab kasus celah bibir dan langit menggunakan analisis komponen utama kategorikal, menentukan faktor yang berpengaruh secara signifikan terhadap jenis celah, dan menentukan apakah terdapat pengaruh perbedaan wilayah terhadap faktor penyebab kasus jenis celah. 
 
@@ -33,8 +32,6 @@ Di bagian ini, saya akan menampilkan proyek analisis data dan menjelaskan secara
 
 **Tujuan**: Menganalisis kestabilan tingkat pengangguran di beberapa negara Asia dan mendeteksi adanya pergeseran rata-rata dan hubungannya dengan krisis finansial yang terjadi.
 
-**Kode**: [Kode EWMA - Shewhart](https://github.com/adndfebrianti26/Data-Analyst-Portofolio/blob/main/Statistika%20Pengendali%20Mutu)
-
 **Deskripsi**: Krisis finansial Asia 1997 - 1998 merupakan krisis ekonomi besar yang melanda kawasan Asia, khususnya Asia Tenggara pada Juli 1997 hingga Mei 1998, dimulai dari jatuhnya mata uang Baht. Data yang digunakan dalam penelitian ini didapat dari Kaggle yang diambil dari data WorldBank. Data ini mencakup 235 negara dengan tahun tinjauan 1991-2021, dengan pembagian data training pada tahun 1991 - 1995 untuk penetapan nilai mu dan sigma dan data testing pada tahun 1996 - 2001 untuk melihat stabilisasi tingkat pengangguran. Metode yang digunakan adalah bagan kendali Shewhart yakni bagan kendali Xbar-R dan Xbar-S yang bergantung pada jumlah data yang terdapat di setiap daerah tinjauan, serta EWMA untuk mendeteksi pergeseran kecil yang terjadi. 
 
 **Skills**: data cleaning, data analysis, data visualization.
@@ -43,7 +40,7 @@ Di bagian ini, saya akan menampilkan proyek analisis data dan menjelaskan secara
 
 **Hasil**: Analisis bagan kendali Shewhart dan EWMA menunjukkan bahwa dari 41 negara yang ditinjau, terdapat 53,7% mengalami pergeseran naik, 9,8% mengalami pergeseran turun, dan 36,5% stabil. Hal ini menunjukkan dominasi kondisi tidak stabil dengan tren peningkatan pengangguran. Kemudian terjadi kenaikan struktural tingkat pengangguran. Dibandingkan benua lain yang mengalami penurunan rerata dan median. Di Asia justru menunjukkan bahwa efek krisis berkelanjutan. 
 
-## Education
+## Pendidikan
 Institut Teknologi Bandung, Bandung :
 Sarjana Matematika
 2022 - 2026
