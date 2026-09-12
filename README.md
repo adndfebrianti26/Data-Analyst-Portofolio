@@ -1,5 +1,3 @@
-# Adinda Febrianti - Data Specialist Portfolio
-
 ## Tentang
 Halo, saya Adinda! Saya lulusan Program Studi Matematika, Institut Teknologi Bandung, dengan kelompok keahlian statistika. Saya memiliki passion besar untuk terus mengembangkan kemampuan analitik saya untuk menemukan informasi berbasis data. 
 
