@@ -60,13 +60,17 @@ Di bagian ini, saya akan menampilkan proyek analisis data dan menjelaskan secara
     <p style="font-size:14px;font-weight:bold;color:#7a1f1f;margin:0 0 6px;">Insight utama</p>
     <p style="font-size:14px;color:#333;line-height:1.6;margin:0 0 16px;">Dari 41 negara Asia yang ditinjau, 53,7% mengalami pergeseran naik tingkat pengangguran pasca krisis finansial 1997-1998 — berbeda dari benua lain yang justru menunjukkan penurunan rerata dan median, menandakan efek krisis di Asia bersifat berkelanjutan.</p>
 
-    <p style="font-size:14px;font-weight:bold;color:#7a1f1f;margin:0 0 6px;">Problem</p>
+    <p style="font-size:14px;font-weight:bold;color:#7a1f1f;margin:0 0 6px;">Masalah</p>
     <p style="font-size:14px;color:#333;line-height:1.6;margin:0 0 16px;">Mendeteksi apakah krisis finansial Asia 1997-1998 meninggalkan pergeseran struktural pada tingkat pengangguran jangka panjang, dan seberapa stabil kondisi pengangguran pasca krisis tersebut.</p>
 
-    <p style="font-size:14px;font-weight:bold;color:#7a1f1f;margin:0 0 6px;">Approach</p>
+    <p style="font-size:14px;font-weight:bold;color:#7a1f1f;margin:0 0 6px;">Pendekatan</p>
     <p style="font-size:14px;color:#333;line-height:1.6;margin:0 0 16px;">Data 235 negara dari WorldBank (via Kaggle), periode 1991-2021, data training 1991-1995 untuk menetapkan nilai mu dan sigma, data testing 1996-2001 untuk melihat stabilisasi. Menerapkan bagan kendali Shewhart (Xbar-R/Xbar-S) dan EWMA — teknik Statistical Process Control yang lebih umum dipakai di manufaktur/QC, kombinasi yang jarang dieksplorasi di analisis data makroekonomi.</p>
 
-    <img src="Mean%20Median%20Dunia.png" alt="Median dan Mean Tingkat Pengangguran di Seluruh Benua Pada 1991-2021" style="width:100%;border-radius:8px;margin-top:8px;">
+    <img src="Mean%20Median%20Dunia.png" alt="Median dan Mean Tingkat Pengangguran di Seluruh Benua Pada 1991-2021" style="width:100%;border-radius:8px;margin-bottom:16px;">
+
+    <p style="font-size:14px;font-weight:bold;color:#7a1f1f;margin:0 0 6px;">Contoh pergeseran ekstrem: Yaman</p>
+    <p style="font-size:14px;color:#333;line-height:1.6;margin:0 0 12px;">Yaman menunjukkan tingkat pengangguran naik konsisten setiap tahun hingga melewati batas kendali (UCL) — salah satu kasus pergeseran paling jelas dari seluruh negara yang dianalisis.</p>
+    <img src="Chart%20Yaman.png" alt="Bagan kendali Shewhart dan EWMA untuk Yaman" style="width:100%;border-radius:8px;">
 
   </div>
 </div>
