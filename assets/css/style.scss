@@ -1,0 +1,20 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
+  background: linear-gradient(120deg, #4a0e0e, #7a1f1f);
+}
+
+.btn {
+  border-color: rgba(255,255,255,0.4);
+}
+
+.btn:hover {
+  background-color: rgba(255,255,255,0.15);
+}
+
+a {
+  color: #7a1f1f;
+}
