@@ -32,16 +32,22 @@ Di bagian ini, saya akan menampilkan proyek analisis data dan menjelaskan secara
 **Hasil**: Proses dimulai dengan data cleaning menggunakan spreadsheet, kemudian dilakukan analisis komponen utama kategorikal adalah dengan menggunakan SPSS, hasilnya dilakukan bootstrapping menggunakan minitab, lalu Generalized Linear Model untuk melihat faktor yang berpengaruh secara signifikan menggunakan Rstudio. Hasilnya terdapat 4 variabel hasil leburan di wilayah Jawa Barat mencakup riwayat kesehatan ayah, riwayat kesehatan ibu, lingkungan ayah, dan lingkungan ibu. Sedangkan Sulawesi Selatan, berdasarkan hasil AKU-K terdapat 1 variabel hasil leburan yakni riwayat keguguran. Wilayah Jawa Barat memiliki variabel signifikan riwayat kesehatan ibu, masalah trimester pertama, rokok pasif ayah dan ibu, radiasi ayah dan ibu, olahraga ayah dan ibu, serta kafein ayah dan ibu. Wilayah Sulawesi Selatan memiliki variabel signifikan terhadap jenis celah diantaranya radiasi ibu, rokok pasif ibu, dan rokok pasif ayah. Kemudian pada data gabungan, variabel signifikan adalah wilayah, pemeriksaan kehamilan, masalah trimester pertama, dan beberapa faktor pola hidup orang tua. Sehingga, wilayah berpengaruh secara signifikan terhadap jenis celah.
 
 ## Analisis Pergeseran Tingkat Pengangguran menggunakan Metode EWMA dan Shewhart
+
 ![Median dan Mean Tingkat Pengangguran di Seluruh Benua Pada 1991-2021](Mean%20Median%20Dunia.png)
-**Tujuan**: Menganalisis kestabilan tingkat pengangguran di beberapa negara Asia dan mendeteksi adanya pergeseran rata-rata dan hubungannya dengan krisis finansial yang terjadi.
 
-**Deskripsi**: Krisis finansial Asia 1997 - 1998 merupakan krisis ekonomi besar yang melanda kawasan Asia, khususnya Asia Tenggara pada Juli 1997 hingga Mei 1998, dimulai dari jatuhnya mata uang Baht. Data yang digunakan dalam penelitian ini didapat dari Kaggle yang diambil dari data WorldBank. Data ini mencakup 235 negara dengan tahun tinjauan 1991-2021, dengan pembagian data training pada tahun 1991 - 1995 untuk penetapan nilai mu dan sigma dan data testing pada tahun 1996 - 2001 untuk melihat stabilisasi tingkat pengangguran. Metode yang digunakan adalah bagan kendali Shewhart yakni bagan kendali Xbar-R dan Xbar-S yang bergantung pada jumlah data yang terdapat di setiap daerah tinjauan, serta EWMA untuk mendeteksi pergeseran kecil yang terjadi. 
+`Python` `SPC` `EWMA` `Shewhart`
 
-**Skills**: data cleaning, data analysis, data visualization.
+**Insight utama**: Dari 41 negara Asia yang ditinjau, 53,7% mengalami pergeseran naik tingkat pengangguran pasca krisis finansial 1997-1998 — jauh berbeda dari benua lain yang justru menunjukkan penurunan rerata dan median, menandakan efek krisis di Asia bersifat berkelanjutan.
+
+**Problem**: Mendeteksi apakah krisis finansial Asia 1997-1998 meninggalkan pergeseran struktural pada tingkat pengangguran jangka panjang, dan seberapa stabil kondisi pengangguran pasca krisis tersebut.
+
+**Approach**: Data 235 negara dari WorldBank (via Kaggle), periode 1991-2021, dengan data training 1991-1995 untuk menetapkan nilai mu dan sigma, dan data testing 1996-2001 untuk melihat stabilisasi. Menerapkan bagan kendali Shewhart (Xbar-R/Xbar-S) — teknik Statistical Process Control yang lebih umum dipakai di manufaktur/QC — dan EWMA untuk mendeteksi pergeseran kecil, sebuah kombinasi yang jarang dieksplorasi di analisis data makroekonomi konvensional.
+
+**Hasil detail**: Dari 41 negara yang ditinjau, 53,7% mengalami pergeseran naik, 9,8% mengalami pergeseran turun, dan 36,5% stabil — menunjukkan dominasi kondisi tidak stabil dengan tren peningkatan pengangguran serta kenaikan struktural yang berkelanjutan di Asia.
+
+**Skills**: data cleaning, data analysis, data visualization, statistical process control
 
 **Teknologi**: Python
-
-**Hasil**: Analisis bagan kendali Shewhart dan EWMA menunjukkan bahwa dari 41 negara yang ditinjau, terdapat 53,7% mengalami pergeseran naik, 9,8% mengalami pergeseran turun, dan 36,5% stabil. Hal ini menunjukkan dominasi kondisi tidak stabil dengan tren peningkatan pengangguran. Kemudian terjadi kenaikan struktural tingkat pengangguran. Dibandingkan benua lain yang mengalami penurunan rerata dan median. Di Asia justru menunjukkan bahwa efek krisis berkelanjutan. 
 
 ## Pendidikan
 Institut Teknologi Bandung, Bandung :
