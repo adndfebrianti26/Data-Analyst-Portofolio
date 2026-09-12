@@ -18,18 +18,50 @@ Berikut ini adalah resume saya [pdf](https://github.com/adndfebrianti26/Data-Ana
 ## Portfolio Projects
 Di bagian ini, saya akan menampilkan proyek analisis data dan menjelaskan secara singkat rangkaian teknologi yang digunakan untuk menyelesaikan kasus tersebut.  
 
-## Analisis Faktor Penyebab Kasus Celah Bibir dan Langit-Langit dengan Analisis Komponen Utama dan Generalized Linear Model
-![Plot AKU-K Jawa Barat](Plot%20AKU-K%20Jawa%20Barat.png)
+<div style="border-radius:10px;overflow:hidden;border:1px solid #e0d5d5;margin-bottom:2rem;">
 
-**Tujuan**: Identifikasi dimensi variabel penyebab kasus celah bibir dan langit menggunakan analisis komponen utama kategorikal, menentukan faktor yang berpengaruh secara signifikan terhadap jenis celah, dan menentukan apakah terdapat pengaruh perbedaan wilayah terhadap faktor penyebab kasus jenis celah. 
+  <div style="background:linear-gradient(120deg,#4a0e0e,#7a1f1f);padding:1.25rem 1.5rem;">
+    <span style="display:inline-block;font-size:13px;padding:4px 12px;border-radius:20px;background:rgba(255,255,255,0.15);color:#fff;margin-right:6px;">SPSS</span>
+    <span style="display:inline-block;font-size:13px;padding:4px 12px;border-radius:20px;background:rgba(255,255,255,0.15);color:#fff;margin-right:6px;">RStudio</span>
+    <span style="display:inline-block;font-size:13px;padding:4px 12px;border-radius:20px;background:rgba(255,255,255,0.15);color:#fff;margin-right:6px;">Minitab</span>
+    <span style="display:inline-block;font-size:13px;padding:4px 12px;border-radius:20px;background:rgba(255,255,255,0.15);color:#fff;">CATPCA</span>
+    <h3 style="color:#fff;margin:10px 0 0;font-size:20px;">Faktor penyebab celah bibir dan langit-langit</h3>
+  </div>
 
-**Deskripsi**: Celah bibir dan langit-langit merupakan kelainan kongenital akibat gagalbya penyatuan jaringan wajah pada minggu ke-5 hingga minggu ke-9 kehamilan, yang berdampak pada kondisi fisik dan perkembangan kesehatan anak. Faktor penyebabnya bersifat kompleks dan saling berkaitan yang meliputi aspek genetik, orangtua, serta lingkungan, sehingga beresiko menimbulkan multikolinearitas antarvariabel. Dalam penelitian ini, digunakan data sekunder yang didapat dari penelitian di tahun 2023 di Jawa Barat dan Sulawesi Selatan. Data ini terdiri dari informasi pribadi penderita kasus mengenai jenis celah (variabel dependen) dan juga informasi nutrisi, lingkungan, dan juga orangtua penderita sebelum dan selama kehamilan. Distribusi jenis celah yang tidak normal, banyaknya faktor yang dipertimbangkan sebagai variabel independen, serta untuk mengetahui apa saja faktor yang berpengaruh secata signifikan digunakan Generalized Linear Model setelah diterapkan Analisis Komponen Utama Kategorikal(AKU-K) dan Bootstrapping. Bootstrapping digunakan dengan mempertimbangkan kondisi data yang imbalanced. 
+  <div style="padding:1.25rem 1.5rem;background:#fff;">
 
-**Skills**: data cleaning, data analysis, correlation matrices, hypothesis testing, data visualization.
+    <div style="display:flex;gap:12px;margin-bottom:1.25rem;">
+      <div style="flex:1;background:#f7f2f2;border-radius:8px;padding:12px;">
+        <p style="font-size:12px;color:#6b6b6b;margin:0 0 4px;">Total sampel</p>
+        <p style="font-size:22px;font-weight:bold;color:#7a1f1f;margin:0;">133</p>
+      </div>
+      <div style="flex:1;background:#f7f2f2;border-radius:8px;padding:12px;">
+        <p style="font-size:12px;color:#6b6b6b;margin:0 0 4px;">Variabel awal</p>
+        <p style="font-size:22px;font-weight:bold;color:#7a1f1f;margin:0;">28</p>
+      </div>
+      <div style="flex:1;background:#f7f2f2;border-radius:8px;padding:12px;">
+        <p style="font-size:12px;color:#6b6b6b;margin:0 0 4px;">Variabel signifikan</p>
+        <p style="font-size:22px;font-weight:bold;color:#7a1f1f;margin:0;">10</p>
+      </div>
+    </div>
 
-**Teknologi**: Spreadsheet, SPSS, Rstudio, Minitab
+    <p style="font-size:14px;font-weight:bold;color:#7a1f1f;margin:0 0 6px;">Insight utama</p>
+    <p style="font-size:14px;color:#333;line-height:1.6;margin:0 0 16px;">Pola faktor risiko celah bibir dan langit-langit berbeda signifikan antar wilayah — paparan radiasi dan rokok mendominasi di Jawa Barat, sementara riwayat keguguran dan pendidikan orang tua lebih berpengaruh di Sulawesi Selatan. Perbedaan ini membuktikan wilayah bukan sekadar variabel kontrol, tapi faktor signifikan tersendiri terhadap jenis celah.</p>
 
-**Hasil**: Proses dimulai dengan data cleaning menggunakan spreadsheet, kemudian dilakukan analisis komponen utama kategorikal adalah dengan menggunakan SPSS, hasilnya dilakukan bootstrapping menggunakan minitab, lalu Generalized Linear Model untuk melihat faktor yang berpengaruh secara signifikan menggunakan Rstudio. Hasilnya terdapat 4 variabel hasil leburan di wilayah Jawa Barat mencakup riwayat kesehatan ayah, riwayat kesehatan ibu, lingkungan ayah, dan lingkungan ibu. Sedangkan Sulawesi Selatan, berdasarkan hasil AKU-K terdapat 1 variabel hasil leburan yakni riwayat keguguran. Wilayah Jawa Barat memiliki variabel signifikan riwayat kesehatan ibu, masalah trimester pertama, rokok pasif ayah dan ibu, radiasi ayah dan ibu, olahraga ayah dan ibu, serta kafein ayah dan ibu. Wilayah Sulawesi Selatan memiliki variabel signifikan terhadap jenis celah diantaranya radiasi ibu, rokok pasif ibu, dan rokok pasif ayah. Kemudian pada data gabungan, variabel signifikan adalah wilayah, pemeriksaan kehamilan, masalah trimester pertama, dan beberapa faktor pola hidup orang tua. Sehingga, wilayah berpengaruh secara signifikan terhadap jenis celah.
+    <p style="font-size:14px;font-weight:bold;color:#7a1f1f;margin:0 0 6px;">Masalah</p>
+    <p style="font-size:14px;color:#333;line-height:1.6;margin:0 0 16px;">Mengidentifikasi dimensi variabel penyebab kasus celah bibir dan langit-langit, menentukan faktor yang berpengaruh secara signifikan di Jawa Barat dan Sulawesi Selatan, dan mengetahui apakah perbedaan wilayah turut memengaruhi faktor penyebabnya.</p>
+
+    <p style="font-size:14px;font-weight:bold;color:#7a1f1f;margin:0 0 6px;">Pendekatan</p>
+    <p style="font-size:14px;color:#333;line-height:1.6;margin:0 0 16px;">Data sekunder dari penelitian 2023 di Jawa Barat dan Sulawesi Selatan, mencakup faktor genetik, orang tua, dan lingkungan. Karena banyaknya faktor yang saling berkorelasi (rawan multikolinearitas) dan jenis celah yang tidak terdistribusi normal, digunakan Analisis Komponen Utama Kategorikal (CATPCA) untuk reduksi dimensi, dilanjutkan Generalized Linear Model (distribusi binomial, fungsi logit) dengan bootstrapping untuk menangani data yang tidak seimbang.</p>
+
+    <img src="Hasil%20Jawa%20Barat%20Korelasi.png" alt="Heatmap korelasi antar variabel penyebab celah bibir dan langit-langit di Jawa Barat" style="width:100%;border-radius:8px;margin-bottom:16px;">
+
+    <p style="font-size:14px;font-weight:bold;color:#7a1f1f;margin:0 0 6px;">Hasil reduksi dimensi</p>
+    <p style="font-size:14px;color:#333;line-height:1.6;margin:0 0 12px;">Di Jawa Barat, 21 variabel awal tereduksi menjadi 2 dimensi utama yang menjelaskan 77% variansi — variabel dengan loading tertinggi adalah paparan radiasi ibu, sementara riwayat kesehatan dan lingkungan orang tua melebur menjadi dua variabel gabungan baru.</p>
+    <img src="Component%20Loadings%20Jawa%20Barat.png" alt="Component loadings plot hasil CATPCA di Jawa Barat" style="width:100%;border-radius:8px;">
+
+  </div>
+</div>
 
 <div style="border-radius:10px;overflow:hidden;border:1px solid #e0d5d5;margin-bottom:2rem;">
 
